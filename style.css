@@ -1,0 +1,83 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+header {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+nav {
+  margin: 1rem 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background: #3498db;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin: 1rem auto;
+}
+
+section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.tagline {
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+.skills {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills li {
+  display: inline-block;
+  background: #3498db;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  margin: 0.3rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.project {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 0.5rem 0;
+  }
+}
